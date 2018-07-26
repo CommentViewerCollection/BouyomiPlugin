@@ -38,6 +38,11 @@ namespace BouyomiPlugin
             get { return _options.NickTitle; }
             set { _options.NickTitle = value; }
         }
+        public bool Want184Read
+        {
+            get { return _options.Want184Read; }
+            set { _options.Want184Read = value; }
+        }
         public ICommand ShowFilePickerCommand { get; }
         private void ShowFilePicker()
         {
