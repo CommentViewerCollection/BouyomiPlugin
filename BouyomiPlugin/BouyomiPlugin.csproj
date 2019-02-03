@@ -71,6 +71,18 @@
       <Project>{735cfeee-5b77-4d36-977b-4cd94a6f3cdb}</Project>
       <Name>Plugin</Name>
     </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\WhowatchIF\WhowatchIF\WhowatchIF.csproj">
+      <Project>{5A83AFC8-E6CE-4DD2-8389-1F43A731388F}</Project>
+      <Name>WhowatchIF</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\YouTubeLiveIF\YouTubeLiveIF\YouTubeLiveIF.csproj">
+      <Project>{83974e62-4d55-4e67-8f88-bbff2222e5a1}</Project>
+      <Name>YouTubeLiveIF</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)\MirrativIF\MirrativIF\MirrativIF.csproj">
+      <Project>{d2c2c0af-3a29-45f7-b653-cf20aacaa051}</Project>
+      <Name>MirrativIF</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Page Include="ConfigView.xaml">

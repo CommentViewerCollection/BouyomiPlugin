@@ -13,3 +13,6 @@
 [submodule "ISitePlugin"]
 	path = ISitePlugin
 	url = git@github.com:CommentViewerCollection/ISitePlugin.git
+[submodule "MirrativIF"]
+	path = MirrativIF
+	url = git@github.com:CommentViewerCollection/MirrativIF.git
