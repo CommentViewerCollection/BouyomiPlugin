@@ -125,7 +125,7 @@ namespace BouyomiPlugin
         }
         public void OnMessageReceived(IMessage message, IMessageMetadata messageMetadata)
         {
-            if (!_options.IsEnabled || messageMetadata.IsNgUser || messageMetadata.IsFirstComment || (messageMetadata.Is184 && !_options.Want184Read))
+            if (!_options.IsEnabled || messageMetadata.IsNgUser || messageMetadata.IsInitialComment || (messageMetadata.Is184 && !_options.Want184Read))
                 return;
 
 
